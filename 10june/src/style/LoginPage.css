@@ -1,0 +1,102 @@
+/* LoginPage.css */
+
+body {
+
+  /* background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%); */
+    height: 100vh;
+      background: url('https://images.pexels.com/photos/17502664/pexels-photo-17502664/free-photo-of-close-up-of-robot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+  background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  animation: fadeIn 0.8s ease-in-out;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  border: none;
+  transition: background-color 0.3s ease;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #357ab8;
+}
+
+.form-control {
+  border-radius: 12px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.form-control:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+.text-danger {
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+/* Optional: simple fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    width: 300px;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-text {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
